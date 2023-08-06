@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666968793720",
+    "project_id": "personalityanalysisapp",
+    "storage_bucket": "personalityanalysisapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666968793720:android:585d7914e135193213438d",
+        "android_client_info": {
+          "package_name": "com.example.personalityanalysisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666968793720-j34argemr6bp7us0vneq7h3599go9qdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLEwdHS-yEV3NsoWyL5BV3NWuoqmOkHr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666968793720-j34argemr6bp7us0vneq7h3599go9qdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

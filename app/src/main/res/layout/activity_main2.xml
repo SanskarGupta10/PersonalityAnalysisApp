@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#E91E63"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#E91E63"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginRight="35dp"
+                app:srcCompat="@drawable/img_10" />
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="1. I am the life of the party."
+                android:textColor="#0C0B0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="2. I feel comfortable around people. "
+                android:textColor="#0B090A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="3. I start conversations."
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/e3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="4. I talk to a lot of different people at parties."
+                android:textColor="#171616"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/e4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="5. I don’t mind being the center of attention."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#03A9F4"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="6. I don’t talk a lot."
+                android:textColor="#0C0B0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#03A9F4"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="7. I keep in the background."
+                android:textColor="#0C0B0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#03A9F4"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="8. I have little to say."
+                android:textColor="#0C0B0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#03A9F4"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="9. I take time out for others."
+                android:textColor="#0C0B0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#03A9F4"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="10. I am quiet around strangers."
+                android:textColor="#0C0B0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="11. I am always prepared."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="12. I pay attention to details."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="13.  I get chores done right away."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="14. I like order."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="15. I follow a schedule."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="16. I am thorough / demanding in my work."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="17. I leave my belongings around."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="18. I make a mess of things."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="19. I often forget to put things back in their proper place."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <TextView
+                android:id="@+id/tv_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#FF5722"
+                android:backgroundTint="#E492F3"
+                android:paddingStart="4dp"
+                android:text="20. I avoid my duties."
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/e20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:backgroundTint="#8EEDE4"
+                android:ems="10"
+                android:hint="1:very inaccurate  5:very accurate"
+                android:inputType="numberDecimal"
+                android:textColorHint="#0B554E" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#CF1111"
+                android:paddingLeft="5dp"
+                android:text="@string/submit"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/res"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#F15D2F"
+                android:paddingLeft="5dp"
+                android:text="RESULT"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/img_11" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

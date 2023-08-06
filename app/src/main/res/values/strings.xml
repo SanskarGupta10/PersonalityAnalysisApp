@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PersonalityAnalysisApp</string>
+    <string name="textview">TextView</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_phone_number_with_country_code">Enter your Phone Number With Country Code</string>
+    <string name="send_otp">SEND OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="check_result">Check Result</string>
+</resources>
